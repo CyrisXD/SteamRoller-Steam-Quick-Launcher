@@ -1,0 +1,58 @@
+<html style="overflow:auto;">
+
+<head>
+    <title>Steam Roller - Steam Quick Launch</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <script src="js/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var gui = require('nw.gui');
+            $('span').on('click', function() {
+                gui.Shell.openExternal($(this).attr('href'));
+
+            });
+        });
+    </script>
+    <style>
+        body {
+            background-image: url(images/bg.png );
+            background-repeat: repeat;
+        }
+        a,
+        h1,
+        h2,
+        span {
+            color: #FFFFFF;
+        }
+        span:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="aboutContainer">
+        <h1>Steam Roller</h1>
+
+        <p style="text-align:center;">Thank you for using Steam Roller.
+            <br /> If you would like to donate as a thanks you can do so below.</p>
+
+        <center><span href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=R9QG885GFR4WU"><img src="images/PayPalDonateNow.png" width="150" id="donateImage"></span>
+        </center>
+
+        <h2>Github</h2>
+        <span href="#">Link to come soon.</span>
+
+
+        <h2>Created by:</h2>
+        <span href="http://www.twitter.com/CyrisXD">@CyrisXD</span>
+
+        <h2>Contributers:</h2>
+        <span href="#">Your name here.</span>
+        </form>
+    </div>
+</body>
+
+</html>

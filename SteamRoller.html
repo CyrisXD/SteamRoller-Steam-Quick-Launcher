@@ -1,0 +1,88 @@
+<html style="overflow:hidden;">
+<head>
+    <title>Steam Roller - Steam Quick Launch</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/ScrollToPlugin.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/frameless_window.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/GALocalStorage.js"></script>
+    <script type="text/javascript">
+        $('[placeholder]').focus(function() {
+            var input = $(this);
+            if (input.val() == input.attr('placeholder')) {
+                input.val('');
+                input.removeClass('placeholder');
+            }
+        }).blur(function() {
+            var input = $(this);
+            if (input.val() == '' || input.val() == input.attr('placeholder')) {
+                input.addClass('placeholder');
+                input.val(input.attr('placeholder'));
+            }
+        }).blur();
+    </script>
+
+
+</head>
+<body>
+
+    <div id="topBar">
+        <div id="menuBar" style="-webkit-app-region: drag">
+            <ul>
+                <li style="-webkit-app-region: no-drag;"><img src="images/search.png" width="20" onclick="openSearch()">
+                </li>
+                <!--<li style="-webkit-app-region: no-drag;"><img src="images/list.png" width="20" onclick="openSearch()"></li>-->
+                <!--<li style="-webkit-app-region: no-drag;"><img src="images/settings.png" width="20" onclick="settings()"></li>-->
+                <li style="-webkit-app-region: no-drag;"><img src="images/maximize.png" id="maxi" width="20" onclick="maximize()">
+                </li>
+                <li style="-webkit-app-region: no-drag;"><img src="images/about.png" width="20" onclick="about()">
+                </li>
+            </ul>
+            <div style="clear:both;"></div>
+        </div>
+
+
+        <div id="changeUserName">
+            <p class="outline">Change User</p>
+
+            <input id="newUsername" type="text" class="text-input changeUser" placeholder="Change username">
+            <button onclick="saveNewUser()" class="newUserSave">Save</button>
+
+            <div style="clear:both;"></div>
+            <p id="userNotFound">User not found. Try again.</p>
+            <p id="userNotPublic">Profile is private</p>
+        </div>
+
+
+
+        <div id="searchBar">
+            <form id="live-search" action="" class="styled" method="post">
+                <fieldset>
+                    <input type="text" class="text-input" id="filter" value="" placeholder="Search..." />
+                    <img src="images/close.png" id="closeSearch" onclick="openSearch();">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <!-- end TOPBar -->
+    <div id="content">
+        <div id="inner-content">
+        </div>
+    </div>
+
+    <!-- *********************************************************************
+     * IMPORTANT:
+     * Google Analytics - Do not change.
+     *           
+     *********************************************************************-->
+    <script>
+        ga_storage._setAccount('UA-57015691-1'); //Replace with your own
+        ga_storage._trackPageview('/index.html');
+    </script>
+</body>
+
+</html>
