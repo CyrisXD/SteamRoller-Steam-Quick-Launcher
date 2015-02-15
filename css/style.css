@@ -280,7 +280,7 @@ margin-right: 3px;
 #hoverScrollDown {
   position: fixed;
   bottom: 0;
-  height: 120px;
+  height: 75px;
   width: 100%;
   z-index: 200;
   background-color: transparent;
@@ -294,7 +294,7 @@ margin-right: 3px;
 #hoverScrollUp {
   position: fixed;
   top: 40px;
-  height: 120px;
+  height: 75px;
   width: 100%;
   z-index: 200;
   background-color: transparent;
