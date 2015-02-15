@@ -15,8 +15,21 @@ SteamRoller is built with base HTML, CSS and Javascript upon [Node-Webkit](https
 ### Usage
 You can download the pre-built 32-bit and 64-bit versions below. This is a stand-alone app that does not require an install, place it in any directy on your computer and create a shortcut to your windows startup folder. 
 
-### [Download 32-bit](http://Cyris.io/downloads/SteamRoller-32.zip)<br />
-### [Download 64-bit](http://Cyris.io/downloads/SteamRoller-64.zip)<br />
+### Version
+
+####0.3
+
+> Added automatic scrolling when mouse is at top and bottom - Rock48 
+
+[Download 32-bit](http://cyris.io/downloads/0.3/SteamRoller-32.zip)<br />
+[Download 64-bit](http://cyris.io/downloads/0.3/SteamRoller-64.zip)<br />
+
+
+####0.2
+
+[Download 32-bit](http://Cyris.io/downloads/SteamRoller-32.zip)<br />
+[Download 64-bit](http://Cyris.io/downloads/SteamRoller-64.zip)<br />
+
 
 Further options can be found by right-clicking the tray icon.
 
@@ -32,6 +45,7 @@ Feedback & Bug Reports can be provided via [Github](https://github.com/CyrisXD/S
 - Squish more bugs
 - Ability to add non-steam games
 - Ability to add custom tiles
+- Ability to sticky games at the top
 - Many more
 
 ### Donate to support
