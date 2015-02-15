@@ -1,7 +1,7 @@
 {
   "name": "SteamRoller",
   "description": "Steam quick launch for your steam game library.",
-  "version": "0.2",
+  "version": "0.3",
   "author": "CyrisXD (http://twitter.com/CyrisXD)",
   "main": "SteamRoller.html",
   "node-main": "node-main.js",
