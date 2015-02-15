@@ -1,10 +1,21 @@
 //===============
+// SET API KEY  |
+//===============
+
+var APIKey = ''; 
+
+//Enter Steam API Key above.
+//Obtaining an API key: http://steamcommunity.com/dev/apikey
+
+
+
+//===============
 // GET LISTINGS |
 //===============
 var getListings = function() {
 
     $("#inner-content").html("");
-    $.getJSON("http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key=9CA9267B737842ACE047EABC7BE0CA50&steamid=" + userID2 + "&include_appinfo=1&format=json", function(result) {
+    $.getJSON("http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key="+APIKey+"&steamid=" + userID2 + "&include_appinfo=1&format=json", function(result) {
 
         result.response.games.forEach(function(key) {
             var AppID = key.appid;
