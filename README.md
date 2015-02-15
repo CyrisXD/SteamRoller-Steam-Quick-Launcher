@@ -25,6 +25,16 @@ Further options can be found by right-clicking the tray icon.
 ###Feedback / Bug Reports
 Feedback & Bug Reports can be provided via [Github](https://github.com/CyrisXD/SteamRoller-Steam-Quick-Launcher/), [Twitter](http://www.twitter.com/CyrisXD), the [SteamRoller Contact Form](http://cyris.io/steam-roller-feedback/).
 
+###To do list:
+
+- BETA testing
+- Cross Windows version testing
+- Squish more bugs
+- Ability to add non-steam games
+- Ability to add custom tiles
+- Many more
+- 
+
 ### Donate to support
 
 Although not required, donations are greatly appreciated and provide the caffiene (and or beer) needed to code. If you would like to donate you can do so [here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=R9QG885GFR4WU).
