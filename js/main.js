@@ -139,8 +139,9 @@ var unmaximize = function() {
 
 var openSearch = function() {
 
-    $("#changeUserName").slideUp();;
+    $("#changeUserName").slideUp();
     $("#searchBar").slideToggle();
+    $("#hoverScrollUp").toggleClass("downabit");
     $("#filter").focus();
     $("#filter").val("");
     $("#filter").keyup();

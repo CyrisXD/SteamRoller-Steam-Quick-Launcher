@@ -303,3 +303,7 @@ margin-right: 3px;
 #hoverScrollUp:hover {
   background-color: rgba(0,0,0,0.4);
 }
+
+#hoverScrollUp.downabit {
+  top: 79px;
+}
