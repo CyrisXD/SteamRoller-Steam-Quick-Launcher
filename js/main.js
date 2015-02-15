@@ -139,8 +139,9 @@ var unmaximize = function() {
 
 var openSearch = function() {
 
-    $("#changeUserName").slideUp();;
+    $("#changeUserName").slideUp();
     $("#searchBar").slideToggle();
+    $("#hoverScrollUp").toggleClass("downabit");
     $("#filter").focus();
     $("#filter").val("");
     $("#filter").keyup();
@@ -284,4 +285,20 @@ $(document).ready(function() {
             }
         });
     });
+
+    //==============
+    // AUTO-SCROLL  |
+    //==============
+    setInterval(function(){
+        if($("#hoverScrollDown:hover").length != 0) {
+            var win = $('#inner-content');
+            var newpos = win.scrollTop() + 5;
+            win.scrollTop(newpos);
+        }
+        if($("#hoverScrollUp:hover").length != 0) {
+            var win = $('#inner-content');
+            var newpos = win.scrollTop() - 5;
+            win.scrollTop(newpos);
+        }
+    }, 1000/144); //Smooth for people like me with 144hz monitors!
 });

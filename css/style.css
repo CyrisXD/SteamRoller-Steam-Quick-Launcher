@@ -276,3 +276,34 @@ top: -25px;
 float: right;
 margin-right: 3px;
 }
+
+#hoverScrollDown {
+  position: fixed;
+  bottom: 0;
+  height: 75px;
+  width: 100%;
+  z-index: 200;
+  background-color: transparent;
+}
+
+#hoverScrollDown:hover {
+  background-color: rgba(0,0,0,0.4);
+}
+
+
+#hoverScrollUp {
+  position: fixed;
+  top: 40px;
+  height: 75px;
+  width: 100%;
+  z-index: 200;
+  background-color: transparent;
+}
+
+#hoverScrollUp:hover {
+  background-color: rgba(0,0,0,0.4);
+}
+
+#hoverScrollUp.downabit {
+  top: 79px;
+}
