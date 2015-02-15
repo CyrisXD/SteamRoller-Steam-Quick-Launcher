@@ -43,11 +43,10 @@ menu.append(new gui.MenuItem({
 }));
 
 menu.append(new gui.MenuItem({
-    label: 'DEV',
+    label: 'Developer Console',
     click: function() {
         //var win = gui.Window.get();
         win.showDevTools();
-        console.log(win.x);
 
     }
 }));
