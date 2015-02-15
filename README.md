@@ -18,6 +18,10 @@ You can download the pre-built 32-bit and 64-bit versions below. This is a stand
 ### [Download 32-bit](http://eguru.co.nz/dev/dogecoin/Doge.html)<br />
 ### [Download 64-bit](http://eguru.co.nz/dev/dogecoin/Doge.html)<br />
 
+Further options can be found by right-clicking the tray icon.
+
+<img src="http://i.imgur.com/EZzXi7u.jpg">
+
 ###Feedback / Bug Reports
 Feedback & Bug Reports can be provided via [Github](https://github.com/CyrisXD/SteamRoller-Steam-Quick-Launcher/), [Twitter](http://www.twitter.com/CyrisXD), the [SteamRoller Contact Form](http://cyris.io/steam-roller-feedback/).
 
