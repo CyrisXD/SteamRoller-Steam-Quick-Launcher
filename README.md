@@ -15,8 +15,8 @@ SteamRoller is built with base HTML, CSS and Javascript upon [Node-Webkit](https
 ### Usage
 You can download the pre-built 32-bit and 64-bit versions below. This is a stand-alone app that does not require an install, place it in any directy on your computer and create a shortcut to your windows startup folder. 
 
-### [Download 32-bit](http://eguru.co.nz/dev/dogecoin/Doge.html)<br />
-### [Download 64-bit](http://eguru.co.nz/dev/dogecoin/Doge.html)<br />
+### [Download 32-bit](http://Cyris.io/downloads/SteamRoller-32.zip)<br />
+### [Download 64-bit](http://Cyris.io/downloads/SteamRoller-64.zip)<br />
 
 Further options can be found by right-clicking the tray icon.
 
