@@ -11,8 +11,8 @@ window.onload = function() {
         window.moveTo(localStorage.win_x, localStorage.win_y);
         window.resizeTo(localStorage.win_width, localStorage.win_height);
     } else {
-        window.moveTo(window.screen.width - 265, 0);
-        window.resizeTo(270, window.screen.height);
+        window.moveTo(window.screen.width - 285, 0);
+        window.resizeTo(285, window.screen.height);
     }
 
     win.show();
