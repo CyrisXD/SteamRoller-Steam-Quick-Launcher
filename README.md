@@ -33,7 +33,6 @@ Feedback & Bug Reports can be provided via [Github](https://github.com/CyrisXD/S
 - Ability to add non-steam games
 - Ability to add custom tiles
 - Many more
-- 
 
 ### Donate to support
 
