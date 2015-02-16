@@ -279,31 +279,41 @@ margin-right: 3px;
 
 #hoverScrollDown {
   position: fixed;
-  bottom: 0;
-  height: 75px;
-  width: 92%;
+  bottom: 10px;
+  height: 25px;
+  width: 75%;
   z-index: 200;
   background-color: transparent;
-  right: 3%;
+  left: 50%;
+  margin: 0 0 0 -37.5%;
 }
 
 #hoverScrollDown:hover {
-  background-color: rgba(0,0,0,0.4);
+  /* background-color: rgba(0,0,0,0.4); */
+  background-image:url('../images/down-arrow-icon.png');
+  background-repeat:no-repeat;
+  background-position:center;
+  
 }
 
 
 #hoverScrollUp {
   position: fixed;
-  top: 40px;
-  height: 75px;
-  width: 92%;
+  top: 45px;
+  height: 25px;
+  width: 75%;
   z-index: 200;
   background-color: transparent;
-  right: 3%;
+  left: 50%;
+  margin: 0 0 0 -37.5%;
 }
 
 #hoverScrollUp:hover {
-  background-color: rgba(0,0,0,0.4);
+  /* background-color: rgba(0,0,0,0.4); */
+  background-image:url('../images/up-arrow-icon.png');
+  background-repeat:no-repeat;
+  background-position:center;
+  
 }
 
 #hoverScrollUp.downabit {
