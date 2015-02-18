@@ -55,7 +55,7 @@ tray.menu = menu;
 menu.append(new gui.MenuItem({
     label: 'Exit',
     click: function() {
-        window.close();
+        win.close();
     }
 }));
 
