@@ -40,7 +40,19 @@ You can download the pre-built 32-bit and 64-bit versions below. This is a stand
 [Download 64-bit](http://Cyris.io/downloads/SteamRoller-64.zip)<br />
 
 
-Further options can be found by right-clicking the tray icon.
+### Having problems?
+
+<strong>Can't enter Steam Name</strong>.
+
+> Your Steam profile must be public<br />
+> You need to set a custom profile URL - Tutorial [here](http://www.1upclan.info/kbase/index.php/article/steam_cust_url)
+
+After setting your custom URL, please wait 15-20 minutes for changes to take effect then try entering your Steam Name again. 
+
+<strong>My games are showing twice, duplicates.</strong>
+
+Right click on the tray icon, then click Reset App. Kill the process and re-open the app. 
+
 
 <img src="http://i.imgur.com/EZzXi7u.jpg">
 
