@@ -7,10 +7,9 @@ SteamRoller is a FREE Stand-alone Quick Launch for your Steam library. Please no
 SteamRoller is built with base HTML, CSS and Javascript upon [Node-Webkit](https://github.com/nwjs/nw.js/tree/master).
 
 ## Screenshot/GIF
-
 <img src="http://i.imgur.com/BPmPazN.gif">
 
-[Updated Screenshot](http://i.imgur.com/s806b98.gif)
+[Updated Screenshot](http://gfycat.com/BlueHandsomeDragonfly)
 
 ### Usage
 You can download the pre-built 32-bit and 64-bit versions below. This is a stand-alone app that does not require an install, place it in any directy on your computer and create a shortcut to your windows startup folder. 
