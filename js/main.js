@@ -23,26 +23,37 @@ var getListings = function() {
             var imageUrl = 'http://cdn.akamai.steamstatic.com/steam/apps/' + AppID + '/header.jpg';
 
 
-            // The "callback" argument is called with either true or false
-            // depending on whether the image at "url" exists or not.
-            function imageExists(url, callback) {
+            // attempt to download the game image and
+            // return the element
+            function getImageIfExists(url, callback) {
                 var img = new Image();
                 img.onload = function() {
-                    callback(true);
+                    return callback(img);
                 };
                 img.onerror = function() {
-                    callback(false);
+                    return callback(null);
                 };
                 img.src = url;
             }
-
-            // Check if image exists and use thumbnail, otherwise use missing.jpg
-            imageExists(imageUrl, function(exists) {
-                if (exists === true) {
-                    $("#inner-content").append('<a href="steam://run/' + AppID + '" class="clicky" id="' + gameName + '"><img class="img-zoom" src="http://cdn.akamai.steamstatic.com/steam/apps/' + AppID + '/header.jpg"></a>');
+            
+            // append the element to the dom if not null
+            getImageIfExists(imageUrl, function(image) {
+                if (image) {
+                    image.classList.add('img-zoom');
+                    $("#inner-content").append(
+                        '<a href="steam://run/' + AppID + '" class="clicky" id="' + gameName + '">',
+                        image,
+                        '</a>'
+                    );
                 } else {
-                    $("#inner-content").append('<a href="steam://run/' + AppID + '" class="clicky" id="' + gameName + '"><div class="missingTile img-zoom" style="width:250px; height:117px; background-image:url(images/missing.jpg); background-size: 250px 117px; background-repeat: no-repeat;"><p class="missingName">' + gameName + '</p></div></a>');
+                    $("#inner-content").append(
+                        '<a href="steam://run/' + AppID + '" class="clicky" id="' + gameName + '">',
+                        '<div class="missingTile img-zoom" style="width:250px; height:117px; background-image:url(images/missing.jpg); background-size: 250px 117px; background-repeat: no-repeat;">',
+                        '<p class="missingName">' + gameName + '</p>'
+                        '</div></a>'
+                    );
                 }
+                
             });
 
         });
