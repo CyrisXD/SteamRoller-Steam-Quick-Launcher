@@ -16,6 +16,16 @@ You can download the pre-built 32-bit and 64-bit versions below. This is a stand
 
 ### Version
 
+####0.4
+
+> Bug fixes
+> Layout tweaks
+> Optimized auto scroll / Fixed endless scroll
+
+[Download 32-bit](http://cyris.io/downloads/0.4/SteamRoller-32.zip)<br />
+[Download 64-bit](http://cyris.io/downloads/0.4/SteamRoller-64.zip)<br />
+
+
 ####0.3
 
 > Added automatic scrolling when mouse is at top and bottom - Rock48 
