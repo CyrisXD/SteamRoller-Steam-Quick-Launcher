@@ -49,7 +49,7 @@ var getListings = function() {
                     $("#inner-content").append(
                         '<a href="steam://run/' + AppID + '" class="clicky" id="' + gameName + '">',
                         '<div class="missingTile img-zoom" style="width:250px; height:117px; background-image:url(images/missing.jpg); background-size: 250px 117px; background-repeat: no-repeat;">',
-                        '<p class="missingName">' + gameName + '</p>'
+                        '<p class="missingName">' + gameName + '</p>',
                         '</div></a>'
                     );
                 }
