@@ -32,5 +32,9 @@
   },
   "scripts": {
     "test": "echo no test suite && exit 1"
-  }
+  },
+  "contributors": [
+    "Rock48 <https://github.com/Rock48>",
+    "Ant Cosentino <ant@io.co.za>"
+  ]
 }
