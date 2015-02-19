@@ -47,3 +47,7 @@ Temporary Items
 
 #API
 api.txt
+
+*.log
+node_modules/
+node-webkit.app
