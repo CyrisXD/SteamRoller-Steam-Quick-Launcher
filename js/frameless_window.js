@@ -23,8 +23,8 @@ window.onload = function() {
 // Create a tray icon   |
 //======================
 var tray = new gui.Tray({
-    title: 'Tray',
-    icon: './images/icon.png'
+    icon: './images/icon.png',
+    iconsAreTemplates: false
 });
 
 
