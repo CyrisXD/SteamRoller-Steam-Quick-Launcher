@@ -152,9 +152,9 @@ function getRandomInt(min, max){
 
 var random = function() {
     games = $(".clicky");
-    mygame = games[getRandomInt(0,games.length)]
-    window.location = mygame.href
-}
+    mygame = games[getRandomInt(0,games.length)];
+    window.location = mygame.href;
+};
 
 //==========================
 // MINIMIZE FUNCTIONALITY   |
@@ -326,12 +326,12 @@ $(document).ready(function() {
     // AUTO-SCROLL  |
     //==============
     setInterval(function(){
-        if($("#hoverScrollDown:hover").length != 0) {
+        if($("#hoverScrollDown:hover").length !== 0) {
             var win = $('#inner-content');
             var newpos = win.scrollTop() + 5;
             win.scrollTop(newpos);
         }
-        if($("#hoverScrollUp:hover").length != 0) {
+        if($("#hoverScrollUp:hover").length !== 0) {
             var win = $('#inner-content');
             var newpos = win.scrollTop() - 5;
             win.scrollTop(newpos);
