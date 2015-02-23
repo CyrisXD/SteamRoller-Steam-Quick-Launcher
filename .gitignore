@@ -23,10 +23,11 @@ $RECYCLE.BIN/
 
 # OSX
 # =========================
-
+.localized
 .DS_Store
 .AppleDouble
 .LSOverride
+.localized
 
 # Thumbnails
 ._*
@@ -48,4 +49,6 @@ Temporary Items
 #API
 api.txt
 
-node-webkit.app
+*.log
+node_modules/
+*.env
