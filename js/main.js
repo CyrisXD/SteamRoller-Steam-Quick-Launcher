@@ -151,8 +151,8 @@ function getRandomInt(min, max){
 }
 
 var random = function() {
-    games = $(".clicky");
-    mygame = games[getRandomInt(0,games.length)];
+    var games = $(".clicky");
+    var mygame = games[getRandomInt(0,games.length)];
     window.location = mygame.href;
 };
 
