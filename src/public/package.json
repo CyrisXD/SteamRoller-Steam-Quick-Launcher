@@ -1,0 +1,22 @@
+{
+  "name": "SteamRoller",
+  "description": "Steam quick launch for your steam game library.",
+  "version": "0.3.0",
+  "main": "SteamRoller.html",
+  "node-main": "js/node-main.js",
+  "window": {
+    "show": false,
+    "toolbar": false,
+    "frame": false,
+    "transparent": true,
+    "min_width": 50,
+    "min_height": 50,
+    "width": 270,
+    "show_in_taskbar": false,
+    "resizable": true
+  },
+  "webkit": {
+    "plugin": true,
+    "page-cache": true
+  }
+}

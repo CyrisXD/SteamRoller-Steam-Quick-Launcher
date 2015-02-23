@@ -4,31 +4,20 @@
   "version": "0.3.0",
   "private": true,
   "author": "CyrisXD (http://twitter.com/CyrisXD)",
-  "main": "SteamRoller.html",
-  "node-main": "node-main.js",
-  "window": {
-    "show": false,
-    "toolbar": false,
-    "frame": false,
-    "transparent": true,
-    "min_width": 50,
-    "min_height": 50,
-    "width": 270,
-    "show_in_taskbar": false,
-    "resizable": true
-  },
-  "webkit": {
-    "plugin": true,
-    "page-cache": true
-  },
   "devDependencies": {
     "chai": "^2.0.0",
     "chai-as-promised": "^4.2.0",
     "coffee-script": "^1.9.1",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-util": "^3.0.3",
     "mocha": "^2.1.0",
     "node-webkit-builder": "^1.0.8",
+    "require-dir": "^0.1.0",
+    "run-sequence": "^1.0.2",
     "sinon": "^1.12.2",
-    "sinon-chai": "^2.7.0"
+    "sinon-chai": "^2.7.0",
+    "vinyl-paths": "^1.0.0"
   },
   "scripts": {
     "test": "echo no test suite && exit 1"

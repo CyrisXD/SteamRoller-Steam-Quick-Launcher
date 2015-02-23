@@ -45,7 +45,12 @@ Temporary Items
 # RubyMine Project
 .idea
 
-#API
-api.txt
+# API
+src/public/api.txt
 
+# Development
 node-webkit.app
+node_modules
+builds
+cache
+dist

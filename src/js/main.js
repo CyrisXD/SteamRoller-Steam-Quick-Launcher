@@ -1,12 +1,13 @@
+var fs = require('fs');
+
 //===============
-// SET API KEY  |
+// GET API KEY  |
 //===============
 
-var APIKey = ''; 
+var APIKey = fs.readFileSync('api.txt');
 
-//Enter Steam API Key above.
+//Put Steam API Key in src/public/api.txt file.
 //Obtaining an API key: http://steamcommunity.com/dev/apikey
-
 
 
 //===============
@@ -35,7 +36,7 @@ var getListings = function() {
                 };
                 img.src = url;
             }
-            
+
             // append the element to the dom if not null
             getImageIfExists(imageUrl, function(image) {
                 if (image) {
@@ -53,7 +54,7 @@ var getListings = function() {
                         '</div></a>'
                     );
                 }
-                
+
             });
 
         });
@@ -302,7 +303,7 @@ $(document).ready(function() {
     //=======================
     // SEARCH FUNCTIONALITY  |
     //=======================
-    
+
     $("#filter").keyup(function() {
 
         // Retrieve the input field text and reset the count to zero
