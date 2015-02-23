@@ -15,7 +15,7 @@ var APIKey = '';
 var getListings = function() {
 
     $("#inner-content").html("");
-    $.getJSON("http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key="+APIKey+"&steamid=" + userID2 + "&include_appinfo=1&format=json", function(result) {
+    $.getJSON("http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key="+APIKey+"&steamid=" + userID2 + "&include_appinfo=1&include_played_free_games=1&format=json", function(result) {
 
         result.response.games.forEach(function(key) {
             var AppID = key.appid;
