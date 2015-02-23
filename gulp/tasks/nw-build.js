@@ -7,7 +7,6 @@ var nw = new Builder({
     files: paths.output + "**/*",
     platforms: ["win", "osx", "linux"],
 	buildDir: paths.builds,
-	macCredits: paths.output + "about.html",
 	macIcns: paths.output + "images/icon.icns",
 	winIco: paths.output + "images/icon.ico"
 });
