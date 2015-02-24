@@ -319,3 +319,21 @@ margin-right: 3px;
 #hoverScrollUp.downabit {
   top: 79px;
 }
+
+.ghost-button {
+  display: inline-block;
+  width: 46px;
+  height: 21px;
+  padding: 2px;
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #fff;
+  color: #000;
+}
