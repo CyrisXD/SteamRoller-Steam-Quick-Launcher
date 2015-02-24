@@ -195,9 +195,9 @@ var settings = function() {
 };
 
 
-//==========================
-// SETTINGS FUNCTIONALITY  |
-//==========================
+//======================
+// ABOUT FUNCTIONALITY  |
+//======================
 
 var about = function() {
     var win = gui.Window.open('about.html', {
