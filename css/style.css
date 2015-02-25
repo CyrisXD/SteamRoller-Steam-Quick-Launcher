@@ -330,10 +330,12 @@ margin-right: 3px;
   text-align: center;
   outline: none;
   text-decoration: none;
+  transition: .3s;
 }
 
 .ghost-button:hover,
 .ghost-button:active {
   background-color: #fff;
   color: #000;
+  transition: .3s;
 }
