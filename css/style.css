@@ -322,18 +322,27 @@ margin-right: 3px;
 
 .ghost-button {
   display: inline-block;
-  width: 46px;
-  height: 21px;
+  width: 50px;
+  height: 25px;
   padding: 2px;
   color: #fff;
   border: 1px solid #fff;
   text-align: center;
   outline: none;
   text-decoration: none;
+  transition: color 0.3s ease-out,
+              background-color 0.3s ease-out,
+              border-color 0.3s ease-out;
 }
 
 .ghost-button:hover,
 .ghost-button:active {
-  background-color: #fff;
-  color: #000;
+ /*background-color: #66d8ed;  <--Light blue/teal background color(my personal favorite color)*/  
+  background-color: #808080;
+  border-color: #000000;
+  border-color: #fff;
+  color: #fff;
+  transition: color 0.3s ease-in,
+              background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
 }
