@@ -335,14 +335,18 @@ margin-right: 3px;
               border-color 0.3s ease-out;
 }
 
-.ghost-button:hover,
-.ghost-button:active {
- /*background-color: #66d8ed;  <--Light blue/teal background color(my personal favorite color)*/  
-  background-color: #808080;
-  border-color: #000000;
+.ghost-button:hover {
+  background-color: #66d8ed;
+ /*background-color: #808080;*/
   border-color: #fff;
   color: #fff;
-  transition: color 0.3s ease-in,
-              background-color 0.3s ease-in,
-              border-color 0.3s ease-in;
+  transition: color 0.3s ease-out,
+              background-color 0.3s ease-out,
+              border-color 0.3s ease-out;
+}
+.ghost-button:active {
+  background-color: #000000;
+  border-color: #fff;
+  color: #fff;
+  transition: 0s;
 }
