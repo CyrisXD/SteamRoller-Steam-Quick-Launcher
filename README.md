@@ -1,3 +1,7 @@
+# Please note
+
+SteamRoller has been discontinued and no longer supported. 
+
 # SteamRoller
 
 SteamRoller is a FREE Stand-alone Quick Launch for your Steam library. Please note it is still in BETA, now open sourced by request to speed up development with contributers. 
